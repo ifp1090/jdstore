@@ -10,21 +10,23 @@
     <h2>
       <%= @product.title %>
     </h2>
-    <div style="height:100px;">
+    <hr/>
+    <div style="height:150px;">
       <p>
-        <%= @product.description %>
+        <h4>产品说明</h4><%= @product.description %>
       </p>
     </div>
+    <hr/>
     <div>
       数量 :
-      <%= @product.quantity %>
+      <%= @product.quantity %>本
     </div>
     <div class="product-price">
-      ￥
-      <%= @product.price %>
+      价格：￥
+      <%= @product.price %>元
     </div>
     <div class="pull-right">
-      <%= link_to("加入购物车", "#", :class => "btn btn-primary btn-lg btn-danger") %>
+      <%= link_to("加入购物车", add_to_cart_product_path(@product), :method => :post, :class => "btn btn-primary btn-lg btn-danger") %>
     </div>
   </div>
 </div>
