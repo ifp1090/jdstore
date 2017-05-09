@@ -19,4 +19,8 @@ cart_items.each do |cart_item|
 end
 sum
 end
+
+def clean!
+  cart_items.destroy_all
+end
 end
