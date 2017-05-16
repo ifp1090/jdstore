@@ -20,4 +20,5 @@ root "welcome#index"
 end
 
 resources :cart_items
+resources :orders
 end
