@@ -16,8 +16,6 @@
 //= require bootstrap/alert
 //= require bootstrap/dropdown
 //= require_tree .
-
-//= require jquery-3.1.1.min
 //= require flickity.min
 //= require parallax
 //= require lightbox.min
