@@ -3,6 +3,7 @@ root "welcome#index"
 
   namespace :admin do
     resources :products
+    resources :orders
   end
   devise_for :users
 
