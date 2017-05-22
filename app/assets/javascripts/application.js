@@ -11,14 +11,22 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.min
+//= require jquery.appear.min
+//= require jquery.easing.min
 //= require jquery_ujs
+//= require jquery.validation.min
+//= require jquery.easy-pie-chart.min
+//= require jquery.lazyload.min
+//= require jquery.isotope.min
+//= require jquery.magnific-popup.min
 //= require turbolinks
 //= require bootstrap/alert
 //= require bootstrap/dropdown
 //= require_tree .
-//= require flickity.min
-//= require parallax
-//= require lightbox.min
-//= require countdown.min
-//= require smooth-scroll.min
-//= require scripts
+//= require common.min
+//= require owl.carousel.min
+//= require vide.min
+//= require theme
+//= require theme.init
+//= require custom
